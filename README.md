@@ -1,8 +1,8 @@
-# Pelvic MRI Classification Research Code
+# Foundation Model Rectal MRI
 
-This repository contains research code for pelvic MRI preprocessing, segmentation-assisted region extraction, radiomics/clinical data preparation, deep-learning classification, evaluation, and explainability workflows.
+This repository contains the research code accompanying the article "A pre-trained foundation model framework for multiplanar MRI classification of extramural vascular invasion and mesorectal fascia invasion in rectal cancer". The code covers pelvic MRI preprocessing, segmentation-assisted region extraction, radiomics/clinical data preparation, deep-learning classification, evaluation, and explainability workflows.
 
-The code is shared as a cleaned research-code snapshot. It does not include patient images, derived subject-level tables, trained model weights, logs, or notebook outputs. Before making this repository public, add the final paper citation, DOI, license, and any project-specific usage restrictions required by your institution or collaborators.
+The code is shared as a cleaned research-code snapshot. It does not include patient images, derived subject-level tables, trained model weights, logs, or notebook outputs. Review institutional and collaborator requirements before redistributing data, weights, or derived artifacts.
 
 ## Repository Structure
 
@@ -78,8 +78,25 @@ This project may be associated with sensitive medical data. Do not commit patien
 
 ## Citation
 
-TODO: Add the full article title, authors, journal/conference, year, DOI, and URL.
+If you use this code, please cite the associated article:
+
+> Zhang, Y., Mali, S.A., Khan, D. et al. A pre-trained foundation model framework for multiplanar MRI classification of extramural vascular invasion and mesorectal fascia invasion in rectal cancer. *Insights into Imaging* 17, 141 (2026). https://doi.org/10.1186/s13244-026-02296-3
+
+```bibtex
+@article{zhang2026foundation_rectal_mri,
+  title = {A pre-trained foundation model framework for multiplanar MRI classification of extramural vascular invasion and mesorectal fascia invasion in rectal cancer},
+  author = {Zhang, Yumeng and Mali, Shruti Atul and Khan, Danial and Amirrajab, Sina and Ibor-Crespo, Eduardo and Jimenez-Pastor, Ana and Ribas, Gloria and Flor-Arnal, Silvia and Zerunian, Marta and Aube, Christophe and Marti-Bonmati, Luis and Salahuddin, Zohaib and Lambin, Philippe},
+  journal = {Insights into Imaging},
+  volume = {17},
+  article-number = {141},
+  year = {2026},
+  doi = {10.1186/s13244-026-02296-3},
+  url = {https://doi.org/10.1186/s13244-026-02296-3}
+}
+```
 
 ## License
 
-TODO: Add a license before publishing. Confirm that the selected license is compatible with institutional policy and all upstream dependencies.
+This repository's source code is released under the Apache License 2.0. See [LICENSE](LICENSE).
+
+The associated article is open access under the Creative Commons Attribution 4.0 International License (CC BY 4.0), as stated by the publisher.
