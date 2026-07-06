@@ -1,0 +1,25 @@
+# Core scientific and medical-imaging dependencies
+SimpleITK
+batchgenerators
+dicom2nifti
+dynamic-network-architectures
+matplotlib
+monai
+nibabel
+nnunetv2
+numpy
+opencv-python
+pandas
+pydicom
+pytorch-grad-cam
+scikit-learn
+scipy
+torch
+tqdm
+
+# Used by selected workflows
+TotalSegmentator
+medicalmultitaskmodeling
+mmcv
+mmdet
+

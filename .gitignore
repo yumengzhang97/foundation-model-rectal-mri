@@ -1,0 +1,47 @@
+# macOS and editor files
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and credentials
+.env
+.env.*
+
+# Research data and derived tables
+data/
+datasets/
+outputs/
+results/
+logs/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.rds
+*.rdata
+*.parquet
+
+# Models and training artifacts
+models/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
